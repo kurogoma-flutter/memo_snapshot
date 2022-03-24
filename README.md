@@ -6,7 +6,7 @@
 
 
 ### 登録後画面
-5件だけ表示させ、上から新しい順になるようにしています。
+5件だけ表示させ、上から新しい順になるようにしています。<br>
 <img width="300" src="https://user-images.githubusercontent.com/67848399/159882532-d9083d02-876d-4d31-96cb-e39712ee2053.png">
 
 ## コード部分
@@ -77,3 +77,11 @@ child: ListView(
   }).toList(),
 ),
 ```
+
+## StreamBuilderとFutureBuilder
+StreamBuilderを「即時更新してくれるもの」と理解するのは危ない。 <br>
+以下の記事がとても参考になったのでリンク貼っておきます。<br>
+タイムラインに効果的か？と思いましたが、開きっぱなしって言うのは怖い。Future Builder使って<br>
+リロード機能とかが一般的な感じもする・・・。<br>
+この辺はメモリやらパフォーマンスと比較して検討した方が良いのかなと思ってます。<br>
+https://ryamamoto.netlify.app/2020/01/16/future-future-stream/
