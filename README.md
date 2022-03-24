@@ -11,7 +11,13 @@
 
 ## コード部分
 ### snapshot
-すごい雑な認識で、即時更新（監視）をしてくれるもの程度に認識しています。
+Flutterやってて初めて「SnapShot」って単語に出会いましたが、FlutterやFirebase用語ってわけではなく<br>
+IT用語としてあるんですね。勉強になりました。
+
+https://wa3.i-3-i.info/word14388.html
+
+https://qiita.com/kabochapo/items/1ef39942ac1206c38b2d
+
 ```dart
 final Stream<QuerySnapshot> _wordsStream =
     FirebaseFirestore.instance.collection('wordList').orderBy('create_at', descending: true).limit(5).snapshots();
