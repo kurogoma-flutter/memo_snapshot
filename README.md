@@ -1,13 +1,21 @@
 # memo_snapshot
 即時反映される簡易メモアプリ
 ## 画像
-### 初期画面
-<img width="300" src="https://user-images.githubusercontent.com/67848399/159882550-071238de-e3e0-4533-ae68-ffebd0768135.png">
 
-
-### 登録後画面
-5件だけ表示させ、上から新しい順になるようにしています。<br>
-<img width="300" src="https://user-images.githubusercontent.com/67848399/159882532-d9083d02-876d-4d31-96cb-e39712ee2053.png">
+<table>
+  <tr>
+    <th>初期画面</th>
+    <th>登録後画面</th>
+  </tr>
+  <tr>
+    <td>
+      <img width="300" src="https://user-images.githubusercontent.com/67848399/159882550-071238de-e3e0-4533-ae68-ffebd0768135.png">
+    </td>
+    <td>
+      <img width="300" src="https://user-images.githubusercontent.com/67848399/159882532-d9083d02-876d-4d31-96cb-e39712ee2053.png">
+    </td>
+  </tr>
+</table>
 
 ## コード部分
 ### snapshot
